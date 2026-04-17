@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+make > /dev/null
+./markov "$@"
+make clean > /dev/null

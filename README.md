@@ -1,6 +1,11 @@
 # Markov-Chat
 While working as a teaching assistant for Functional Languages & AI (CSCI-2322), I prototyped a Markov chain text generator for a new project in the next semester. This is that model, along with some additional scripts to change its corpus.
 
+#### Flags:
+-c: selects the LNChar model<br>
+-n: sets the key size<br>
+-s: sets the output size<br>
+
 The Models folder contains all four Markov models:
 **MarkovL1:** A one-dimensional Markov chain, meaning that its key consists of a single word<br>
 **MarkovL2:** A two-dimensional Markov chain, meaning that its key consists of two words<br>
