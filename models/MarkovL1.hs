@@ -1,3 +1,4 @@
+module Models.L1 where
 import Debug.Trace
 import System.Random (randomRIO)
 import Data.List.Split (splitWhen, splitOn)
