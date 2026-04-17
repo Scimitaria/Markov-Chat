@@ -45,11 +45,5 @@ main = do
     else do
         let n = getN flags
             size = getSize flags
-        if LNChar `elem` flags then
-            putStrLn "undefined"
-            --let model = buildModel
-            --generateResponseLn n model size
-        else
-            putStrLn "undefined"
-            --let model = buildModel
-            --generateResponseLn n model size            
+        if LNChar `elem` flags then testNC n size 
+        else testN n size          
