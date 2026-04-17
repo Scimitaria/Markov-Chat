@@ -1,4 +1,4 @@
-module Models.LN where
+module Models.MarkovLN where
 import Debug.Trace
 import System.Random (randomRIO)
 import Data.List.Split (splitWhen, splitOn)
