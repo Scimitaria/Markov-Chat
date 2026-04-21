@@ -6,7 +6,7 @@ While working as a teaching assistant for Functional Languages & AI (CSCI-2322),
 -n: sets the key size<br>
 -s: sets the output size<br>
 
-The Models folder contains all four Markov models:
+The Models folder contains all four Markov models:  
 **MarkovL1:** A one-dimensional Markov chain, meaning that its key consists of a single word<br>
 **MarkovL2:** A two-dimensional Markov chain, meaning that its key consists of two words<br>
 **MarkovLN:** An N-dimensional Markov chain, meaning that its key consists of N words<br>
